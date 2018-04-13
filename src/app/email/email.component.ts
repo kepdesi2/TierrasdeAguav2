@@ -8,7 +8,8 @@ import { AuthService } from '../services/auth.service';
   styleUrls: ['./email.component.css']
 })
 export class EmailComponent implements OnInit {
-
+  email;
+  password;
   constructor(
     private authService: AuthService) { }
 
